@@ -1,0 +1,1373 @@
+{
+    "type": "module",
+    "name": "phpfox-importer",
+    "version": "1.10",
+    "path": "application\/modules\/PhpfoxImporter",
+    "title": "PhpfoxImporter",
+    "description": "phpFox to SocialEngine importer.",
+    "author": "Webligo Developments",
+    "actions": [
+        "install",
+        "upgrade",
+        "refresh",
+        "remove"
+    ],
+    "structure": {
+        "README.txt": {
+            "type": "file",
+            "path": "README.txt",
+            "structure": {
+                "path": "README.txt",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 147,
+                "sha1": "24396463909ff999861614d4ee5efaf642c430d7"
+            }
+        },
+        "application\/modules\/PhpfoxImporter\/manifest.php": {
+            "type": "file",
+            "path": "application\/modules\/PhpfoxImporter\/manifest.php",
+            "structure": {
+                "path": "application\/modules\/PhpfoxImporter\/manifest.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 482,
+                "sha1": "bdf5f3ff0f9526570657e18d0c475095e2b8dcda"
+            }
+        },
+        "install\/controllers\/PhpfoximportController.php": {
+            "type": "file",
+            "path": "install\/controllers\/PhpfoximportController.php",
+            "structure": {
+                "path": "install\/controllers\/PhpfoximportController.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 34316,
+                "sha1": "4f5cdab8015f8171bd3f474f5467f928b429c58c"
+            }
+        },
+        "install\/forms\/Import\/Phpfox.php": {
+            "type": "file",
+            "path": "install\/forms\/Import\/Phpfox.php",
+            "structure": {
+                "path": "install\/forms\/Import\/Phpfox.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 14764,
+                "sha1": "dea357c19566c820a004cf447d3e075eb7129f25"
+            }
+        },
+        "install\/import\/Phpfox\/Abstract.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/Abstract.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/Abstract.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 65780,
+                "sha1": "726af8683327c9f2a79581d79eabf170652baa3e"
+            }
+        },
+        "install\/import\/Phpfox\/AbstractActivityComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AbstractActivityComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AbstractActivityComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 9462,
+                "sha1": "591c70a7bf8c802f41fe95f7b8101f2fb5773b78"
+            }
+        },
+        "install\/import\/Phpfox\/AbstractActivityLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AbstractActivityLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AbstractActivityLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 4188,
+                "sha1": "72129f77912352acafe52ab1b04e473c2343fe41"
+            }
+        },
+        "install\/import\/Phpfox\/AbstractComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AbstractComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AbstractComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 9498,
+                "sha1": "39cbf206282fc09f71f3dbea5d5fe6f130e40dea"
+            }
+        },
+        "install\/import\/Phpfox\/AbstractFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AbstractFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AbstractFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 32035,
+                "sha1": "d9746ee067fd0323ea25dbfd6cd3ffd287a390a6"
+            }
+        },
+        "install\/import\/Phpfox\/AbstractFields.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AbstractFields.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AbstractFields.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 33645,
+                "sha1": "613ffff7179331735b7e88ae0c639fad74041303"
+            }
+        },
+        "install\/import\/Phpfox\/AbstractLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AbstractLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AbstractLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 4917,
+                "sha1": "63a64a20ca05a94a9a511f5fe3cc225c3abc3d1a"
+            }
+        },
+        "install\/import\/Phpfox\/AbstractTags.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AbstractTags.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AbstractTags.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3709,
+                "sha1": "d3c3abde707e8fc6850035db3dcc7eed1aa834f0"
+            }
+        },
+        "install\/import\/Phpfox\/Ad.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/Ad.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/Ad.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 10560,
+                "sha1": "1322a3626a8d7535c5b86d39894e013f2f81095a"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumAlbums.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumAlbums.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumAlbums.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 5687,
+                "sha1": "9d3b4427c076ea3f4a896a2ca3155ba494f2f2bc"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumCategories.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumCategories.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumCategories.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2063,
+                "sha1": "ddcaebc7342e051622a0ac0cf2c947716aa9b814"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2853,
+                "sha1": "084f4c87a551cbf6f589bb4a2f23081303bd6445"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3510,
+                "sha1": "120efe7087ece19fd4b5592660ce95b7e06a8743"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2183,
+                "sha1": "469db11b31e7408d1b11e26496fa21efba008973"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumPhotoComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumPhotoComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumPhotoComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3329,
+                "sha1": "02fb5e6828891a2f311cd76acf9cc122f0dfa636"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumPhotoLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumPhotoLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumPhotoLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2182,
+                "sha1": "9fcae837873bb2b7c440083b461e272bc3f1eca6"
+            }
+        },
+        "install\/import\/Phpfox\/AlbumPhotos.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/AlbumPhotos.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/AlbumPhotos.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 14749,
+                "sha1": "2b2368f5ccbfc514468b35032766ef666caad270"
+            }
+        },
+        "install\/import\/Phpfox\/Announcement.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/Announcement.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/Announcement.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 5229,
+                "sha1": "ef18cbd102aa6ec28e23e7cc4876a89ae3c65456"
+            }
+        },
+        "install\/import\/Phpfox\/BannedUsers.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/BannedUsers.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/BannedUsers.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2667,
+                "sha1": "b902a0b312bb5a3f1353cadcce28f20b0feff355"
+            }
+        },
+        "install\/import\/Phpfox\/BlogBlogs.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/BlogBlogs.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/BlogBlogs.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 6221,
+                "sha1": "39de476ce4f5cbef8ac94968d41523760291d9ce"
+            }
+        },
+        "install\/import\/Phpfox\/BlogCategories.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/BlogCategories.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/BlogCategories.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2405,
+                "sha1": "eb76134ffe8e5e95c57ed75fd269a49c162e7d51"
+            }
+        },
+        "install\/import\/Phpfox\/BlogComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/BlogComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/BlogComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3306,
+                "sha1": "930a068612e3c6d6abeb815f9859aaa4171d73e0"
+            }
+        },
+        "install\/import\/Phpfox\/BlogFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/BlogFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/BlogFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3468,
+                "sha1": "3240b3c4b4c61a03ec45dc2ba65cf46471883000"
+            }
+        },
+        "install\/import\/Phpfox\/BlogLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/BlogLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/BlogLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2159,
+                "sha1": "bbd68895a3ad5413a325bdcfccfbb69395d39c08"
+            }
+        },
+        "install\/import\/Phpfox\/BlogTags.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/BlogTags.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/BlogTags.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3008,
+                "sha1": "f78d56d430fe43096182e2853cb58955dac6c97e"
+            }
+        },
+        "install\/import\/Phpfox\/ChatWhispers.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ChatWhispers.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ChatWhispers.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2830,
+                "sha1": "06e206371ccdeadb0cacde288de87786e17d40bd"
+            }
+        },
+        "install\/import\/Phpfox\/ClassifiedCategories.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ClassifiedCategories.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ClassifiedCategories.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2531,
+                "sha1": "1ab310cf603eedaa46ef0b7b8bfcd7ba1713a1e2"
+            }
+        },
+        "install\/import\/Phpfox\/ClassifiedClassifieds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ClassifiedClassifieds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ClassifiedClassifieds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 11081,
+                "sha1": "4b4fbdf1f84bf5ecac1d103f3869578d1b788167"
+            }
+        },
+        "install\/import\/Phpfox\/ClassifiedComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ClassifiedComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ClassifiedComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3350,
+                "sha1": "9516ce572038b2b24be101a9c73de4c76db7e247"
+            }
+        },
+        "install\/import\/Phpfox\/ClassifiedFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ClassifiedFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ClassifiedFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3511,
+                "sha1": "d8e0a5409a522075df008c62d1faf92f73fc0d8e"
+            }
+        },
+        "install\/import\/Phpfox\/ClassifiedFields.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ClassifiedFields.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ClassifiedFields.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1757,
+                "sha1": "368eb602292e3c84ec101a96372c7f52350acd9b"
+            }
+        },
+        "install\/import\/Phpfox\/ClassifiedLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ClassifiedLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ClassifiedLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2203,
+                "sha1": "9f76737083f5ac17837aa1dadb94f84dd7bb2239"
+            }
+        },
+        "install\/import\/Phpfox\/CleanupPost.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/CleanupPost.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/CleanupPost.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1207,
+                "sha1": "fda03fcb218c4ef1bdc3c673e3135f60ce10a39c"
+            }
+        },
+        "install\/import\/Phpfox\/CleanupPre.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/CleanupPre.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/CleanupPre.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 9517,
+                "sha1": "b8951cd88226b2d136fcc213d552d9a2ee64f711"
+            }
+        },
+        "install\/import\/Phpfox\/CoreContent.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/CoreContent.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/CoreContent.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 4034,
+                "sha1": "55b40c82c16dcd8b0e534a4d33f3714133406492"
+            }
+        },
+        "install\/import\/Phpfox\/CoreLinks.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/CoreLinks.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/CoreLinks.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3861,
+                "sha1": "977eb082d035abf3373f4cb991650b59676ce6c9"
+            }
+        },
+        "install\/import\/Phpfox\/CorePages.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/CorePages.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/CorePages.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 9012,
+                "sha1": "c188ea6ccd578e61c311a2947dcce6f4a5aea4da"
+            }
+        },
+        "install\/import\/Phpfox\/CoreSettings.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/CoreSettings.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/CoreSettings.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 9859,
+                "sha1": "331787162d8ebfe7c0174728fad7b5500fb1c3f6"
+            }
+        },
+        "install\/import\/Phpfox\/EventCategories.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/EventCategories.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/EventCategories.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2287,
+                "sha1": "f380eba009c474eb08e20f224f45049815b357ce"
+            }
+        },
+        "install\/import\/Phpfox\/EventEvents.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/EventEvents.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/EventEvents.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 16039,
+                "sha1": "7a3470c9cb08ce5bb8ffafbd18f089baac630cff"
+            }
+        },
+        "install\/import\/Phpfox\/EventFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/EventFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/EventFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3478,
+                "sha1": "fe56ceae3203a7344b216c10b2a9530d7e549fc9"
+            }
+        },
+        "install\/import\/Phpfox\/EventLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/EventLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/EventLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2166,
+                "sha1": "658fad07a703988c59de1910f9c040e2eb034309"
+            }
+        },
+        "install\/import\/Phpfox\/EventStatusFeed.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/EventStatusFeed.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/EventStatusFeed.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 18498,
+                "sha1": "85637266756263e087f6a6bbcc1d01f1ac314e48"
+            }
+        },
+        "install\/import\/Phpfox\/ForumFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ForumFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ForumFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3490,
+                "sha1": "a5314be8b0d28fc9c22fee186886d914f50defd3"
+            }
+        },
+        "install\/import\/Phpfox\/ForumForums.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ForumForums.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ForumForums.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 8866,
+                "sha1": "64ca5b1908623839a204cd620f6cee30081b0084"
+            }
+        },
+        "install\/import\/Phpfox\/ForumPostLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ForumPostLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ForumPostLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2197,
+                "sha1": "d402e10e4444673ccf10f8ab7dde305aaf9b82d4"
+            }
+        },
+        "install\/import\/Phpfox\/ForumReplyFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ForumReplyFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ForumReplyFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3505,
+                "sha1": "77b1df4c6e9d27b7e24252b146f1dc8485e95cbe"
+            }
+        },
+        "install\/import\/Phpfox\/ForumTopics.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/ForumTopics.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/ForumTopics.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 11750,
+                "sha1": "7aa5c4e40a961c40812a444911d5493f2c8a174d"
+            }
+        },
+        "install\/import\/Phpfox\/Languages.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/Languages.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/Languages.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 6136,
+                "sha1": "30cd734f3b4d4bac26e7a4ac92a134ffb5617612"
+            }
+        },
+        "install\/import\/Phpfox\/LinkComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/LinkComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/LinkComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3256,
+                "sha1": "4ba17639f796284612658f9fd433b7cd7bfb96cb"
+            }
+        },
+        "install\/import\/Phpfox\/LinkFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/LinkFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/LinkFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3445,
+                "sha1": "18d626feb8a5d9b071fbfff31618b00ce5d85e6e"
+            }
+        },
+        "install\/import\/Phpfox\/LinkLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/LinkLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/LinkLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2109,
+                "sha1": "970d3d785f0a216bb695f0140b06be5d40c0ed15"
+            }
+        },
+        "install\/import\/Phpfox\/MailMessages.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MailMessages.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MailMessages.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 4803,
+                "sha1": "2a36c265e317d3d353ea475517650e70742a0f51"
+            }
+        },
+        "install\/import\/Phpfox\/MailMessagesConversations.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MailMessagesConversations.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MailMessagesConversations.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2896,
+                "sha1": "9f920214abb7ce38702696236255e00fee011477"
+            }
+        },
+        "install\/import\/Phpfox\/Messages.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/Messages.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/Messages.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3996,
+                "sha1": "71d339fdf931218bc815a8511ed0da1ab7bdc4ed"
+            }
+        },
+        "install\/import\/Phpfox\/MessagesConversations.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MessagesConversations.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MessagesConversations.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3161,
+                "sha1": "6203f5deaa26e8f5d1224e350875aac46b889cb7"
+            }
+        },
+        "install\/import\/Phpfox\/MessagesRecipients.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MessagesRecipients.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MessagesRecipients.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3989,
+                "sha1": "54415d3b7ac53790978b55466397ffd31b3e437e"
+            }
+        },
+        "install\/import\/Phpfox\/MusicComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MusicComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MusicComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3337,
+                "sha1": "15d739f6b2c49f9b3df4f36ee25479af8edb4bda"
+            }
+        },
+        "install\/import\/Phpfox\/MusicLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MusicLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MusicLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2190,
+                "sha1": "f5077e4c21b728e4848a0d1784a2356f0bd263a1"
+            }
+        },
+        "install\/import\/Phpfox\/MusicPlaylists.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MusicPlaylists.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MusicPlaylists.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 14587,
+                "sha1": "aad8a8841248bbabb1d39e1c9a3bc73b70a84cc2"
+            }
+        },
+        "install\/import\/Phpfox\/MusicPlaylistsFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MusicPlaylistsFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MusicPlaylistsFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3521,
+                "sha1": "0e63949fbee6e2c4e6673f6e6c4fbb74bdb5b5a8"
+            }
+        },
+        "install\/import\/Phpfox\/MusicSongsComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MusicSongsComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MusicSongsComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3350,
+                "sha1": "b82af2c8d300aeeb1a507ab68cddd5506f2a9228"
+            }
+        },
+        "install\/import\/Phpfox\/MusicSongsFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/MusicSongsFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/MusicSongsFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3537,
+                "sha1": "5522c829314976d70ab3c40fba2ca280eeac8923"
+            }
+        },
+        "install\/import\/Phpfox\/PagesGroupStatusFeed.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PagesGroupStatusFeed.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PagesGroupStatusFeed.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 19384,
+                "sha1": "f7cb4560e3287db17b66f7b87b6760b0e8f6191a"
+            }
+        },
+        "install\/import\/Phpfox\/PagesGroups.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PagesGroups.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PagesGroups.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 16553,
+                "sha1": "fa6ba32293826329b9de251f86a6afc97c302101"
+            }
+        },
+        "install\/import\/Phpfox\/PagesGroupsCategories.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PagesGroupsCategories.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PagesGroupsCategories.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2404,
+                "sha1": "b4e7a0d44597107c295ecbba53a4f2cc4d946e96"
+            }
+        },
+        "install\/import\/Phpfox\/PhotoFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PhotoFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PhotoFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3504,
+                "sha1": "fdaee4153648dfe1833d7b7d77c0c50cfd3a9cfd"
+            }
+        },
+        "install\/import\/Phpfox\/PollComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PollComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PollComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3306,
+                "sha1": "396d77da400364ba4fa947167efe34fff8715d5e"
+            }
+        },
+        "install\/import\/Phpfox\/PollFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PollFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PollFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3469,
+                "sha1": "87e600e521d50a53898b3352e2df8be9a29316b9"
+            }
+        },
+        "install\/import\/Phpfox\/PollLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PollLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PollLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2159,
+                "sha1": "49d166d920c629e8013225ba5721485c4e988598"
+            }
+        },
+        "install\/import\/Phpfox\/PollOptions.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PollOptions.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PollOptions.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2323,
+                "sha1": "ccb87c0439551a29ccc6580617564a2d10464f01"
+            }
+        },
+        "install\/import\/Phpfox\/PollPolls.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PollPolls.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PollPolls.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 6151,
+                "sha1": "ebf9ff83b99fa17850d5692c6fa6595cb9319bcf"
+            }
+        },
+        "install\/import\/Phpfox\/PollVotes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/PollVotes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/PollVotes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3487,
+                "sha1": "1d38bf5dea3466ae088a35f8dc4beaa32d740a07"
+            }
+        },
+        "install\/import\/Phpfox\/UserBlock.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserBlock.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserBlock.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1576,
+                "sha1": "6fda1858fc9de4dd4ff482084959a17ca84c52cd"
+            }
+        },
+        "install\/import\/Phpfox\/UserFbConnect.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserFbConnect.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserFbConnect.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2194,
+                "sha1": "eff79a5a4947730cb7d680587688e5de2c2b0c2d"
+            }
+        },
+        "install\/import\/Phpfox\/UserFields.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserFields.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserFields.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 699,
+                "sha1": "e47973f1c5a6cb8d95409f7a9c7b1b742fcd85eb"
+            }
+        },
+        "install\/import\/Phpfox\/UserFieldsData.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserFieldsData.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserFieldsData.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 4749,
+                "sha1": "951a29c509984bb05c856c1233a2b8c5f6e0ebd1"
+            }
+        },
+        "install\/import\/Phpfox\/UserJanrain.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserJanrain.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserJanrain.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1952,
+                "sha1": "28033bfd094c182b70628d3e10e47fdf7a48445b"
+            }
+        },
+        "install\/import\/Phpfox\/UserLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1630,
+                "sha1": "50b77ef117908670549b845dc5a2a67fc3a82ea4"
+            }
+        },
+        "install\/import\/Phpfox\/UserListItems.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserListItems.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserListItems.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1579,
+                "sha1": "88cadb1e62a204cc85a0e2e686a66e6cd013e99f"
+            }
+        },
+        "install\/import\/Phpfox\/UserLists.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserLists.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserLists.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1828,
+                "sha1": "56ea21562c2d5e0b7bd18ddb826b099a0d678623"
+            }
+        },
+        "install\/import\/Phpfox\/UserMembership.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserMembership.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserMembership.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3870,
+                "sha1": "36b8b8ecea18c2eb9e2042239fd4a149420968cd"
+            }
+        },
+        "install\/import\/Phpfox\/UserOtherFieldsData.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserOtherFieldsData.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserOtherFieldsData.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 7348,
+                "sha1": "5c18b9c60bd1c853f2a6fe096399655cce5f071a"
+            }
+        },
+        "install\/import\/Phpfox\/UserPhotoLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserPhotoLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserPhotoLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1659,
+                "sha1": "5ebb9316101126ffc3042749cf6a1828a64ef830"
+            }
+        },
+        "install\/import\/Phpfox\/UserPhotoUpdateFeed.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserPhotoUpdateFeed.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserPhotoUpdateFeed.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2978,
+                "sha1": "87c469a9f164e5303ec0dcb447bb4472313ff235"
+            }
+        },
+        "install\/import\/Phpfox\/UserRequest.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserRequest.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserRequest.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2934,
+                "sha1": "bf83f4dcc7cd2867be458f68a341478fa4485bc6"
+            }
+        },
+        "install\/import\/Phpfox\/UserResource.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserResource.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserResource.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2595,
+                "sha1": "5c8b7e6230bec92efebb1804364ac00991812934"
+            }
+        },
+        "install\/import\/Phpfox\/UserStatus.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserStatus.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserStatus.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3586,
+                "sha1": "1c70446d6130b67be6ecc3d6ccf7a621a3b27f52"
+            }
+        },
+        "install\/import\/Phpfox\/UserStatusComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserStatusComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserStatusComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2813,
+                "sha1": "513213c435f394c6a6a13d3fd5795c3c076ef863"
+            }
+        },
+        "install\/import\/Phpfox\/UserStatusLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserStatusLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserStatusLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1666,
+                "sha1": "89c8fa1c79d402ad50a7e4e7eae50d4d3061f77a"
+            }
+        },
+        "install\/import\/Phpfox\/UserStyles.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserStyles.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserStyles.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1376,
+                "sha1": "60daacd129dbb495fed1048f2bc5641232061c5d"
+            }
+        },
+        "install\/import\/Phpfox\/UserTaggedFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserTaggedFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserTaggedFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2984,
+                "sha1": "043e45bad96a889780c3a5fef44fbd99736cdf25"
+            }
+        },
+        "install\/import\/Phpfox\/UserUsers.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/UserUsers.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/UserUsers.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 11657,
+                "sha1": "f7c0f34869988fa2e9a181815a77e08a96d1d3d5"
+            }
+        },
+        "install\/import\/Phpfox\/VERSION": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VERSION",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VERSION",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 4,
+                "sha1": "ab2996cb92d6332638807432977ec70d2f7244c3"
+            }
+        },
+        "install\/import\/Phpfox\/VideoCategories.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoCategories.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoCategories.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2420,
+                "sha1": "39783ba95d0994a644a839f294a5b313c4cea541"
+            }
+        },
+        "install\/import\/Phpfox\/VideoComments.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoComments.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoComments.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3313,
+                "sha1": "1e4262c2ce1359dda18caa4624984e3820f00fbc"
+            }
+        },
+        "install\/import\/Phpfox\/VideoFeeds.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoFeeds.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoFeeds.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3476,
+                "sha1": "6c096d944e410493d56c2a0bd4e52c70e9a36364"
+            }
+        },
+        "install\/import\/Phpfox\/VideoFeedsV4.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoFeedsV4.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoFeedsV4.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 808,
+                "sha1": "81006c53edd1e4fe5a1cbf1576ba41e065983f33"
+            }
+        },
+        "install\/import\/Phpfox\/VideoLikes.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoLikes.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoLikes.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2168,
+                "sha1": "3f7ee972be285e9983e8c1fa21cfba17cedf9deb"
+            }
+        },
+        "install\/import\/Phpfox\/VideoRating.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoRating.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoRating.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2145,
+                "sha1": "c5641bf1ac2b0dff9805d1affcd83fe720a2f97b"
+            }
+        },
+        "install\/import\/Phpfox\/VideoTags.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoTags.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoTags.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3015,
+                "sha1": "7c774844e64489ede14b268791f345af389571be"
+            }
+        },
+        "install\/import\/Phpfox\/VideoVideos.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoVideos.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoVideos.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 12020,
+                "sha1": "ef513d7a25470b7ea8c339b1e29e425884f47a0c"
+            }
+        },
+        "install\/import\/Phpfox\/VideoVideosV4.php": {
+            "type": "file",
+            "path": "install\/import\/Phpfox\/VideoVideosV4.php",
+            "structure": {
+                "path": "install\/import\/Phpfox\/VideoVideosV4.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2893,
+                "sha1": "2d4255ffbac989e8c63981166c47eebe4f49055c"
+            }
+        },
+        "install\/import\/PhpfoxAbstract.php": {
+            "type": "file",
+            "path": "install\/import\/PhpfoxAbstract.php",
+            "structure": {
+                "path": "install\/import\/PhpfoxAbstract.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 18904,
+                "sha1": "252febbe6680ad27701000485d79b02e024dc117"
+            }
+        },
+        "install\/import\/PhpfoxDbAbstract.php": {
+            "type": "file",
+            "path": "install\/import\/PhpfoxDbAbstract.php",
+            "structure": {
+                "path": "install\/import\/PhpfoxDbAbstract.php",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 11748,
+                "sha1": "8604cb3579cdea619f165a07cec0f01db65869a2"
+            }
+        },
+        "install\/views\/scripts\/import\/index.tpl": {
+            "type": "file",
+            "path": "install\/views\/scripts\/import\/index.tpl",
+            "structure": {
+                "path": "install\/views\/scripts\/import\/index.tpl",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 1860,
+                "sha1": "b3a865ec636af7a44e1e3ac5d07e86eae36ebec7"
+            }
+        },
+        "install\/views\/scripts\/phpfoximport\/phpfox-instructions.tpl": {
+            "type": "file",
+            "path": "install\/views\/scripts\/phpfoximport\/phpfox-instructions.tpl",
+            "structure": {
+                "path": "install\/views\/scripts\/phpfoximport\/phpfox-instructions.tpl",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 2688,
+                "sha1": "2c1a93a6f68278e5ae777d5b7cec179ecb835b12"
+            }
+        },
+        "install\/views\/scripts\/phpfoximport\/phpfox-split.tpl": {
+            "type": "file",
+            "path": "install\/views\/scripts\/phpfoximport\/phpfox-split.tpl",
+            "structure": {
+                "path": "install\/views\/scripts\/phpfoximport\/phpfox-split.tpl",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 12405,
+                "sha1": "842ddde7dc77896876fc2f83c68b8d29447ca0a2"
+            }
+        },
+        "install\/views\/scripts\/phpfoximport\/phpfox.tpl": {
+            "type": "file",
+            "path": "install\/views\/scripts\/phpfoximport\/phpfox.tpl",
+            "structure": {
+                "path": "install\/views\/scripts\/phpfoximport\/phpfox.tpl",
+                "dir": false,
+                "file": true,
+                "perms": "0644",
+                "size": 3961,
+                "sha1": "5d3f8c9a2b4240bc8f5ec533b09a6c85260bc2c5"
+            }
+        }
+    }
+}
